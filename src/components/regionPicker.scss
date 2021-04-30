@@ -1,0 +1,27 @@
+@import "../Assets/scss/variables.scss";
+
+.container {
+    position: relative;
+    width: 93%;
+    margin: 0 auto;
+    .Dropdown-root {
+        width: 100px;
+
+        .Dropdown-control {
+            font-size: 0.8rem;
+            font-weight: bold;
+            background-color: white;
+            color: $main-color;
+            border: none;
+            padding: 0.5rem 1.5rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-right: 1rem;
+
+            .Dropdown-arrow {
+                border-color: $main-color transparent transparent;
+            }
+        }
+    }
+}

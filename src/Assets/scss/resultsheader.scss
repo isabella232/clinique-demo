@@ -1,0 +1,109 @@
+.result-header-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.results-header-container {
+    display: flex;
+    align-items: baseline;
+    margin: 3rem 0 1rem 0;
+    border-bottom: 1px solid #cccccc;
+    width: 60%;
+    justify-content: space-between;
+    transform: translateX(4rem);
+
+    a {
+        text-decoration: underline;
+    }
+}
+
+.header-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .filter-stat-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menuSelect {
+        display: flex;
+        align-items: center;
+        color: #868686;
+
+        .filterMenuSelect {
+            display: flex;
+            align-items: center;
+            position: relative;
+            cursor: pointer;
+
+            svg {
+                position: absolute;
+                right: 1rem;
+                pointer-events: none;
+            }
+        }
+
+        p {
+            font-weight: 800;
+        }
+        .ais-MenuSelect-select {
+            appearance: none;
+            cursor: pointer;
+            border: none;
+            font-size: 1rem;
+            font-weight: 700;
+            font-family: $main-font;
+            background-color: transparent;
+            border-radius: 0;
+            color: #868686;
+            padding: 0.5rem 1.5rem;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-justify-content: flex-start;
+            justify-content: flex-start;
+            -webkit-align-items: center;
+            align-items: center;
+            margin-right: 1rem;
+            background-image: none;
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
+
+.search-page__headline {
+    font-family: $main-font;
+    font-size: 2rem;
+    letter-spacing: -0.02em;
+    color: #040a2b;
+    margin-right: 2rem;
+    font-weight: 100;
+}
+
+.results-pagination {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #040a2b;
+}
+
+.results-pagination .view-all {
+    padding-right: 12px;
+    margin-right: 6px;
+    border-right: 1px solid #cccccc;
+    font-weight: 700;
+    color: #040a2b;
+}
+
+.results-pagination .page {
+    padding: 0 6px 0 6px;
+    color: #040a2b;
+}
+
+.black {
+    color: #040a2b;
+}

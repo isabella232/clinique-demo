@@ -1,0 +1,21 @@
+
+body,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.header-img {
+  max-width: 100vw;
+}
+
+.footer-img {
+  max-width: 100vw;
+}
+
+@import url(//db.onlinewebfonts.com/c/1d246fd518060757805cabe553abf71c?family=OptimaDisplay);
